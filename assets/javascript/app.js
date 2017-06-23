@@ -41,11 +41,9 @@ function renderQuestion(){
 		newDiv.append("<h1>" + question + "</h1>");
 		$("#questionDiv").append(newDiv);
 		console.log(newDiv);
-	// $("#questionDiv").show();
-	// $(".button").hide();
-	// $("h2").hide();
-		
-
+		$("#questionDiv").show();
+		$("#start").hide();
+		$("h2").hide();
 	}
 }
 
@@ -55,29 +53,29 @@ function renderQuestion(){
  // var list of questions
  var questionObject = {
 	q1: {
-		question: "Why are you?",
-		answers: ["because", "you", "suck", "balls"],
-		correct: "balls",
+		question: "Who said 'no no no' to rehab?",
+		answers: ["Britney Spears", "Amy Winehouse", "Adele", "Ke$ha"],
+		correct: "Amy Winehouse",
 	},
 	q2: {
-		question: "Why are you",
-		answers: ["because", "you", "suck", "balls"],
-		correct: "balls",
+		question: "Who's hips don't lie?",
+		answers: ["Shakira", "Jennifer Lopez", "Madonna", "Miley Cyrus"],
+		correct: "Shakira",
 	},
 	q3: {
-		question: "Why are you",
-		answers: ["because", "you", "suck", "balls"],
-		correct: "balls",
+		question: "Who partnered up on 'Empire State of Mind' with Alicia Keys?",
+		answers: ["Eminem", "Kanye West", "Jay-Z", "Tupac"],
+		correct: "Jay-Z",
 	},
 	q4: {
-		question: "Why are you",
-		answers: ["because", "you", "suck", "balls"],
-		correct: "balls",
+		question: "Which rapper started on Degrassi?",
+		answers: ["Lil Wayne", "Lil Bow Wow", "Drake", "Kendrick Lamar"],
+		correct: "Drake",
 	},
 	q5: {
-		question: "Why are you",
-		answers: ["because", "you", "suck", "balls"],
-		correct: "balls",
+		question: "Who brought sexy back?",
+		answers: ["Ne-yo", "Usher", "Justin Timberlake", ""],
+		correct: "Justin Timberlake",
 	},
  }
 
